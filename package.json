@@ -1,0 +1,13 @@
+{
+  "name": "cricket-exchange",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "bun --cwd backend run dev & bun --cwd frontend run dev",
+    "build": "bun --cwd backend run build && bun --cwd frontend run build",
+    "start": "bun --cwd backend run start"
+  }
+}

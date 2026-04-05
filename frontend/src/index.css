@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #f8fafc;
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html {
+  background:
+    radial-gradient(circle at top left, rgba(249, 115, 22, 0.22), transparent 26%),
+    radial-gradient(circle at top right, rgba(20, 184, 166, 0.16), transparent 28%),
+    linear-gradient(135deg, #09111d 0%, #0f172a 54%, #09111d 100%);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(249, 115, 22, 0.22), transparent 26%),
+    radial-gradient(circle at top right, rgba(20, 184, 166, 0.16), transparent 28%),
+    linear-gradient(135deg, #09111d 0%, #0f172a 54%, #09111d 100%);
+  background-attachment: fixed;
+  color: #f8fafc;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+  background: transparent;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(250, 204, 21, 0.35);
+}
