@@ -12,7 +12,7 @@ export function AppShell() {
   return (
     <main className="min-h-screen px-3 py-4 text-foreground sm:px-5 sm:py-6 lg:px-8">
       <div className="mx-auto grid max-w-7xl gap-4 sm:gap-5">
-        <header className="rounded-[24px] border border-white/10 bg-black/20 p-3 shadow-2xl backdrop-blur-xl sm:rounded-[28px] sm:p-4">
+        <header className="rounded-[24px] border border-white/10 bg-black/20 p-3 shadow-2xl backdrop-blur-[8px] md:backdrop-blur-xl sm:rounded-[28px] sm:p-4">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <Link to="/leagues" className="flex items-center gap-3 text-white no-underline">
               <div className="rounded-2xl bg-primary/20 p-2.5 text-primary sm:p-3">

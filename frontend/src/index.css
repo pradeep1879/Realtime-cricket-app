@@ -24,6 +24,7 @@ html {
     linear-gradient(135deg, #09111d 0%, #0f172a 54%, #09111d 100%);
   background-attachment: fixed;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -39,6 +40,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 button,
@@ -52,6 +54,13 @@ textarea {
   min-height: 100vh;
   background: transparent;
   overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+  html,
+  body {
+    background-attachment: scroll;
+  }
 }
 
 ::selection {
